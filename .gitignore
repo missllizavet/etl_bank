@@ -1,0 +1,23 @@
+# Виртуальное окружение Python
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.idea/
+.vscode/
+
+# Временно исключаем main.py
+main.py
+
+# Файлы с паролями
+config.py
+
+# Системные файлы
+.DS_Store
+Thumbs.db
