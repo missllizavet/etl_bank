@@ -1,0 +1,5 @@
+apache-airflow>=2.10.0
+apache-airflow-providers-postgres>=6.0.0
+pandas>=2.0.0
+psycopg2-binary>=2.9.0
+chardet>=5.0.0
