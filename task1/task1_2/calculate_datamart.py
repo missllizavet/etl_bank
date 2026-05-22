@@ -1,6 +1,6 @@
 import psycopg2
 from datetime import datetime, timedelta
-from configurations import DB_CONFIG
+from task1.configurations import DB_CONFIG
 
 
 def get_db_connection():

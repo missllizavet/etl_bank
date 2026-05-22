@@ -2,7 +2,7 @@ import psycopg2
 import csv
 import os
 from datetime import datetime
-from configurations import DB_CONFIG
+from task1.configurations import DB_CONFIG
 
 
 # Устанавливает соединение с базой данных
@@ -68,7 +68,7 @@ def export_table_to_csv(conn, table_name, output_file):
 
 def main():
     # Создаем папку для экспорта, если её нет
-    export_dir = 'export'
+    export_dir = '../export'
     if not os.path.exists(export_dir):
         os.makedirs(export_dir)
 

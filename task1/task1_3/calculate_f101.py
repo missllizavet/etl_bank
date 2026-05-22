@@ -1,6 +1,6 @@
 import psycopg2
 from datetime import datetime
-from configurations import DB_CONFIG
+from task1.configurations import DB_CONFIG
 
 
 # Устанавливает соединение с базой данных

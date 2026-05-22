@@ -13,7 +13,7 @@ __pycache__/
 .vscode/
 
 # Временно исключаем main.py
-main.py
+task1/task1_1/main.py
 
 # Файлы с паролями
 config.py

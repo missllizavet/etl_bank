@@ -2,7 +2,7 @@ import csv
 import os
 from datetime import datetime
 import psycopg2
-from configurations import DB_CONFIG
+from task1.configurations import DB_CONFIG
 
 
 # Устанавливает соединение с базой данных
@@ -106,7 +106,7 @@ def compare_tables(conn, table1, table2):
 
 
 def main():
-    import_dir = 'export'
+    import_dir = '../export'
     original_file = os.path.join(import_dir, 'dm_f101_round_f.csv')
     modified_file = os.path.join(import_dir, 'dm_f101_round_f_modified.csv')
 
@@ -122,7 +122,7 @@ def main():
     conn = get_db_connection()
 
     try:
-        from import_f101_from_csv import create_table_copy, import_csv_to_table
+        from task1.task1_4.import_f101_from_csv import create_table_copy, import_csv_to_table
 
         target_table = 'dm.dm_f101_round_f_modified'
         source_table = 'dm.dm_f101_round_f'
