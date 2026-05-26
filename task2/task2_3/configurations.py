@@ -8,3 +8,4 @@ DB_CONFIG = {
 
 # путь к папке с csv-файлами
 DATA_DIR = 'data'
+

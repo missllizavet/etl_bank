@@ -5,7 +5,7 @@ import time
 import io
 import chardet
 from datetime import datetime
-from configurations import DB_CONFIG, DATA_DIR
+from task2.task2_2.configurations import DB_CONFIG, DATA_DIR
 
 
 def get_db_connection():
